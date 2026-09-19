@@ -1,0 +1,10 @@
+{
+  "name": "Remix Contacts Timeline AI",
+  "description": "Gestión inteligente y privada de contactos con vista cronológica, importación/exportación y análisis de duplicados.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

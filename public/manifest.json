@@ -1,0 +1,74 @@
+{
+  "id": "/",
+  "name": "Contacts Timeline AI",
+  "short_name": "Contacts",
+  "description": "Gestión inteligente y privada de contactos con vista cronológica, geolocalización y análisis de duplicados.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f172a",
+  "theme_color": "#4f46e5",
+  "categories": ["productivity", "utilities", "business"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nuevo Contacto",
+      "short_name": "Añadir",
+      "description": "Crear un nuevo contacto rápidamente",
+      "url": "/#add",
+      "icons": [
+        {
+          "src": "/shortcut-icon-96x96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Línea de Tiempo",
+      "short_name": "Timeline",
+      "description": "Ver cronología de contactos",
+      "url": "/#timeline",
+      "icons": [
+        {
+          "src": "/shortcut-icon-96x96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Mapa de Ubicaciones",
+      "short_name": "Mapa",
+      "description": "Ver dónde se guardaron tus contactos",
+      "url": "/#map",
+      "icons": [
+        {
+          "src": "/shortcut-icon-96x96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
